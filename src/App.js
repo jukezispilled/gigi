@@ -3,15 +3,17 @@ import { motion } from 'framer-motion'; // Import motion from Framer Motion
 import monkeyImage from './monkey3.png'; // Import the monkey image
 import Xlogo from './xlogo.jpg';
 import './App.css';
+import TweetButton from './TweetButton';
 
 function App() {
   return (
-    <div className="banana-cursor h-screen w-screen flex flex-col justify-center items-center bg-cover opacity-95" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/jungle.jpg)`}}>
-      <img src={monkeyImage} alt="Monkey" className="mt-4 w-[225px] md:w-[30%] h-auto" /> {/* Image */}
+    <div className="banana-cursor h-screen w-screen flex flex-col justify-center items-center bg-black opacity-95" /*style={{backgroundImage: `url(${process.env.PUBLIC_URL}/jungle.jpg)`}}*/>
+      <TweetButton className="mt-2" tweetText="Monkey say monkey do. This isn't chump change @monkeyonsolana $MNKY" />
+      <img src={monkeyImage} alt="Monkey" className="mt-6 w-[225px] md:w-[30%] h-auto" /> {/* Image */}
       <div className="pt-8 text-3xl md:text-6xl font-custom text-white text-center px-3">MONKEY ON SOLANA</div> {/* Text */}
       <hr className="w-3/5 border-t border-white" /> {/* Horizontal Break Line */}
       <div className="pt-2 text-3xl md:text-6xl font-custom text-white text-center px-3">COMING SOON</div>
-      <motion.div className="pt-10 flex items-center gap-2">
+      <motion.div className="pt-8 flex items-center gap-2">
         {/* Animated container */}
         <motion.div
           initial={{ y: -3 }} // Adjusted initial position

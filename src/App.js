@@ -8,12 +8,8 @@ import TweetButton from './TweetButton';
 function App() {
   return (
     <div className="banana-cursor h-screen w-screen flex flex-col justify-center items-center bg-black opacity-95" /*style={{backgroundImage: `url(${process.env.PUBLIC_URL}/jungle.jpg)`}}*/>
-      
       <img src={monkeyImage} alt="Monkey" className="mt-6 mb-5 w-[225px] md:w-[30%] h-auto" /> {/* Image */}
       <TweetButton className="mt-2" tweetText="Monkey say monkey do. This isn't chump change @monkeyonsolana $MNKY" />
-      <div className="pt-6 text-3xl md:text-6xl font-custom text-white text-center px-3">MONKEY ON SOLANA</div> {/* Text */}
-      <hr className="w-3/5 border-t border-white" /> {/* Horizontal Break Line */}
-      <div className="pt-2 text-3xl md:text-6xl font-custom text-white text-center px-3">COMING SOON</div>
       <motion.div className="pt-8 flex items-center gap-2">
         {/* Animated container */}
         <motion.div
@@ -23,7 +19,7 @@ function App() {
             transition: { duration: 2.5, repeat: Infinity, repeatType: 'reverse' } // Increased duration
           }}
         >
-          <div className="text-white text-[22px] font-custom">
+          <div className="text-white text-3xl font-custom">
             {/* Larger clickable area for "Follow On" */}
             <a href="https://x.com/monkeyonsolana" target="_blank" rel="noopener noreferrer" className="block p-2">
               FOLLOW ON

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion'; // Import motion from Framer Motion
-import monkeyImage from './monkey3.png'; // Import the monkey image
+import monkeyImage from './themonkey.png'; // Import the monkey image
 import Xlogo from './xlogo.jpg';
 import './App.css';
 import TweetButton from './TweetButton';

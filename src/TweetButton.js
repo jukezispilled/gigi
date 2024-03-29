@@ -1,8 +1,10 @@
 import React from 'react';
 
-const TweetButton = ({ tweetText }) => {
+const TweetButton = ({ tweetText, solAddress }) => {
   const handleTweet = () => {
-    const encodedTweetText = encodeURIComponent(tweetText); // Encode the tweet text
+    const fullTweetText = `${tweetText}\n\n${solAddress}`; // Concatenate tweet text, two lines space, and SOL address
+
+    const encodedTweetText = encodeURIComponent(fullTweetText); // Encode the tweet text
 
     // Construct the Twitter Web Intent URL
     const tweetUrl = `https://twitter.com/intent/tweet?text=${encodedTweetText}`;

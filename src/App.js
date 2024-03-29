@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="banana-cursor h-screen w-screen flex flex-col justify-center items-center bg-black" /*style={{backgroundImage: `url(${process.env.PUBLIC_URL}/jungle.jpg)`}}*/>
       <img src={monkeyImage} alt="Monkey" className="mt-6 mb-5 w-[225px] md:w-[30%] h-auto" /> {/* Image */}
-      <TweetButton className="mt-2" tweetText="Monkey say monkey do. This isn't chump change @monkeyonsolana $MNKY" solAddress="<input SOL address here>"/>
+      <TweetButton className="mt-2" tweetText="Monkey say monkey do. This ain't chimp change @monkeyonsolana $MNKY" solAddress="<input SOL address here>"/>
       <motion.div className="pt-8 flex items-center gap-2">
         {/* Animated container */}
         <motion.div

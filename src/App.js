@@ -50,9 +50,35 @@ function App() {
       <HorizontalTicker duration={10000}>
         <div className='h-16 flex items-center text-[30px] font-custom whitespace-nowrap border-y-2 border-black'>$DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC&nbsp;</div>
       </HorizontalTicker>
-      <div className='h-screen w-screen flex justify-center items-center bg-[#09FCDB]'>
-        <div className=''>
-          Test
+      <div className='h-min w-screen flex justify-center bg-[#09FCDB]'>
+        <div className='grid w-full'>
+          <div className='pt-[10%] font-custom text-5xl md:text-6xl lg:text-8xl text-center'>
+            Tokenomics
+          </div>
+          <div className='flex justify-center w-full'>
+            <div className='bg-black rounded-xl h-[300px] w-[65%] mt-[5%] mb-[5%]'>
+              <div className='w-full h-full flex justify-center items-center text-white font-custom text-4xl md:text-5xl lg:text-6xl'>
+                <div className='grid text-center'>
+                  total supply
+                  <div className="text-center pt-[2%] text-2xl md:text-4xl">
+                    1,000,000,000 $DC
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='flex justify-center w-full'>
+            <div className='bg-black rounded-xl h-[300px] w-[65%] mb-[10%]'>
+              <div className='w-full h-full flex justify-center items-center text-white font-custom text-4xl md:text-5xl lg:text-6xl'>
+                <div className='grid text-center'>
+                  token address
+                  <div className="text-center pt-[2%] text-2xl md:text-4xl break-all mx-6">
+                    CWKuQAa6cZLP5MPvGuvTYUcmXhCXS21PN13FPb5CCZMf
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

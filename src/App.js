@@ -15,7 +15,7 @@ function App() {
         <div className=''>
           <div className='text-center font-custom font-bold -mt-[50%] md:-mt-[40%] mb-[10%]'>
             <h1 className='text-[84px] sm:text-[130px] md:text-[150px] lg:text-[180px] 2xl:text-[210px]'>DOGECAT</h1>
-            <h2 className='-mt-3 text-2xl md:text-4xl'>POWERED BY SOLANA</h2>
+            <h2 className='-mt-4 md:-mt-3 text-2xl md:text-4xl'>POWERED BY SOLANA</h2>
           </div>
           <motion.img 
             src={monkeyImage} 

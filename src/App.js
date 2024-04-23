@@ -68,7 +68,7 @@ function App() {
             </div>
           </div>
           <div className='flex justify-center w-full'>
-            <div className='bg-black rounded-xl h-[300px] w-[65%] mb-[10%]'>
+            <div className='bg-black rounded-xl h-[300px] w-[75%] md:w-[65%] mb-[10%]'>
               <div className='w-full h-full flex justify-center items-center text-white font-custom text-4xl md:text-5xl lg:text-6xl'>
                 <div className='grid text-center'>
                   token address

@@ -40,8 +40,8 @@ function App() {
                 BUY NOW
               </a>
               <div className='pt-8 text-center font-custom text-2xl lg:-rotate-3 flex justify-center -mt-3'>
-                <button className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img></button>
-                <button className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={TG} alt='Tg logo' className='w-12 h-12'></img></button>
+                <a href="https://twitter.com/soldogecat" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
+                <a href="https://t.me/SolDogeCat" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={TG} alt='Tg logo' className='w-12 h-12'></img></a>
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ function App() {
       <div className="banana-cursor h-[94vh] md:min-h-[97vh] w-screen flex justify-center items-center bg-cover bg-center relative overflow-clip z-10" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/bg1.jpg)`}}>
         <div className=''>
           <div className='text-center font-custom font-bold -mt-[50%] md:-mt-[40%] mb-[10%]'>
-            <h1 className='text-8xl sm:text-[130px] md:text-[150px] lg:text-[180px] 2xl:text-[210px]'>DOGECAT</h1>
+            <h1 className='text-7xl sm:text-[130px] md:text-[150px] lg:text-[180px] 2xl:text-[210px]'>DOGECAT</h1>
             <h2 className='-mt-3 text-2xl md:text-4xl'>POWERED BY SOLANA</h2>
           </div>
           <motion.img 

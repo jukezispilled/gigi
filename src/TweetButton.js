@@ -14,7 +14,7 @@ const TweetButton = ({ tweetText, solAddress }) => {
   };
 
   return (
-    <button onClick={handleTweet} className="font-custom bg-gradient-to-r from-amber-600 via-yellow-500 to-amber-600 animate-text text-white font-bold py-3 px-5 rounded-xl text-3xl md:text-5xl">
+    <button onClick={handleTweet} className="font-custom bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 animate-text text-white font-bold py-3 px-5 rounded-xl text-3xl md:text-4xl">
       JOIN
     </button>
   );

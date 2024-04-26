@@ -6,6 +6,7 @@ import Xlogo from './xlogo.jpg';
 import TG from './tg.png';
 import './App.css';
 import TweetButton from './TweetButton';
+import Marquee from "react-fast-marquee";
 
 function App() {
 
@@ -47,20 +48,20 @@ function App() {
           </div>
         </div>
       </div>
-      <HorizontalTicker duration={10000}>
+      <Marquee speed={90}>
         <div className='h-16 flex items-center text-[30px] font-custom whitespace-nowrap border-y-2 border-black'>$DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC&nbsp;</div>
-      </HorizontalTicker>
+      </Marquee>
       <div className='h-min w-screen flex justify-center bg-[#09FCDB]'>
         <div className='grid w-full'>
           <div className='pt-[10%] font-custom text-5xl md:text-6xl lg:text-8xl text-center'>
             Tokenomics
           </div>
           <div className='flex justify-center w-full'>
-            <div className='bg-black rounded-xl h-[300px] w-[65%] mt-[5%] mb-[5%]'>
+            <div className='bg-black rounded-xl h-[300px] w-[75%] md:w-[65%] mt-[5%] mb-[5%]'>
               <div className='w-full h-full flex justify-center items-center text-white font-custom text-4xl md:text-5xl lg:text-6xl'>
                 <div className='grid text-center'>
                   total supply
-                  <div className="text-center pt-[2%] text-2xl md:text-4xl">
+                  <div className="text-center pt-[2%] text-2xl md:text-4xl mx-6">
                     1,000,000,000 $DC
                   </div>
                 </div>
@@ -72,8 +73,18 @@ function App() {
               <div className='w-full h-full flex justify-center items-center text-white font-custom text-4xl md:text-5xl lg:text-6xl'>
                 <div className='grid text-center'>
                   token address
-                  <div className="text-center pt-[2%] text-2xl md:text-4xl break-all mx-6">
+                  <div className="text-center pt-[2%] text-2xl md:text-4xl break-all mx-12">
                     CWKuQAa6cZLP5MPvGuvTYUcmXhCXS21PN13FPb5CCZMf
+                  </div>
+                  <div className='flex justify-center'>
+                    <button
+                      className="text-xl mt-2 p-2 w-min bg-gray-800 text-white rounded-md hover:bg-gray-600 transition ease-in-out duration-150"
+                      onClick={() => {
+                        navigator.clipboard.writeText("CWKuQAa6cZLP5MPvGuvTYUcmXhCXS21PN13FPb5CCZMf");
+                      }}
+                    >
+                      Copy
+                    </button>
                   </div>
                 </div>
               </div>

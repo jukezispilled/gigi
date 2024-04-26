@@ -9,6 +9,15 @@ import TweetButton from './TweetButton';
 import Marquee from "react-fast-marquee";
 
 function App() {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText("CWKuQAa6cZLP5MPvGuvTYUcmXhCXS21PN13FPb5CCZMf");
+    setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000); // Hide the message after 2 seconds
+  };
 
   return (
     <div>
@@ -79,11 +88,9 @@ function App() {
                   <div className='flex justify-center'>
                     <button
                       className="text-xl mt-2 p-2 w-min bg-gray-800 text-white rounded-md hover:bg-gray-600 transition ease-in-out duration-150"
-                      onClick={() => {
-                        navigator.clipboard.writeText("CWKuQAa6cZLP5MPvGuvTYUcmXhCXS21PN13FPb5CCZMf");
-                      }}
+                      onClick={handleCopy}
                     >
-                      Copy
+                      {copied ? "Copied!" : "Copy"}
                     </button>
                   </div>
                 </div>

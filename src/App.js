@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion'; // Import motion from Framer Motion
 import { HorizontalTicker } from "react-infinite-ticker";
-import monkeyImage from './file3.png'; // Import the monkey image
+import monkeyImage from './dcb1.png'; // Import the monkey image
 import Xlogo from './xlogo.jpg';
 import TG from './tg.png';
 import './App.css';
@@ -30,7 +30,7 @@ function App() {
           <motion.img 
             src={monkeyImage} 
             alt="Monkey" 
-            className="mt-6 mb-6 sm:w-[90%] lg:w-[40%] h-auto absolute -left-2 -bottom-16 sm:-bottom-[30%] md:left-6 lg:bottom-[12%] xl:bottom-[14%] lg:left-[7%] -z-10" 
+            className="mt-6 mb-6 w-[80%] lg:w-[40%] h-auto absolute translate-x-2 -bottom-[15%] left-[10%] sm:-bottom-[10%] md:left-[10%] lg:bottom-[2%] lg:left-[1%] -z-10" 
             animate={{
               rotate: [-3, 3], // Rotate from -5 degrees to 5 degrees and back
             }}
@@ -45,22 +45,22 @@ function App() {
             <div className='grid content-center z-40'>
               <a
                 href="/"
-                className='lg:-rotate-3 font-custom text-4xl md:text-5xl lg:text-6xl bg-[#09FCDB] p-6 rounded-xl border-2 border-black ring-4 ring-[#09FCDB] ring-opacity-80 ring-offset-4 hover:scale-105 transition ease-in-out duration-200'
+                className='lg:-rotate-3 font-custom text-4xl md:text-5xl lg:text-6xl bg-amber-400 p-6 rounded-xl border-2 border-black ring-4 ring-amber-600 ring-opacity-80 ring-offset-4 hover:scale-105 transition ease-in-out duration-200'
               >
                 BUY NOW
               </a>
               <div className='pt-8 text-center font-custom text-2xl lg:-rotate-3 flex justify-center -mt-3'>
-                <a href="https://twitter.com/soldogecat" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
-                <a href="https://t.me/SolDogeCat" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={TG} alt='Tg logo' className='w-12 h-12'></img></a>
+                <a href="https://twitter.com/dogecatonsol" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
+                <a href="https://t.me/dogecatonsol" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={TG} alt='Tg logo' className='w-12 h-12'></img></a>
               </div>
             </div>
           </div>
         </div>
       </div>
       <Marquee speed={90}>
-        <div className='h-16 flex items-center text-[30px] font-custom whitespace-nowrap border-y-2 border-black'>$DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC&nbsp;</div>
+        <div className='h-16 flex items-center text-[30px] lg:text-5xl font-custom whitespace-nowrap border-y-2 border-black'>$DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC&nbsp;</div>
       </Marquee>
-      <div className='h-min w-screen flex justify-center bg-[#09FCDB]'>
+      <div className='h-min w-screen flex justify-center bg-amber-400'>
         <div className='grid w-full'>
           <div className='pt-[10%] font-custom text-5xl md:text-6xl lg:text-8xl text-center'>
             Tokenomics

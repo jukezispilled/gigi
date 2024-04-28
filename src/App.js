@@ -44,7 +44,7 @@ function App() {
           <div className='lg:absolute lg:bottom-[25%] lg:right-[20%] flex justify-center'>
             <div className='grid content-center z-40'>
               <a
-                href="/"
+                href="https://raydium.io/swap/?outputCurrency=Bjj44cJrTMogwHvQ9sK8RaMeE5P3pALycMPdMws9gMfX"
                 className='lg:-rotate-3 font-custom text-4xl md:text-5xl lg:text-6xl bg-amber-400 p-6 rounded-xl border-2 border-black ring-4 ring-amber-600 ring-opacity-80 ring-offset-4 hover:scale-105 transition ease-in-out duration-200'
               >
                 BUY NOW

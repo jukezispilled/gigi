@@ -29,7 +29,7 @@ function App() {
           <div className='flex justify-center'>
             <div className='grid content-center z-40'>
               <a
-                href="https://pump.fun/EZUFNJMZTBpungQX2czEb9ZyCMjtdzsDGMK4UywDUa1F"
+                href="https://www.dextools.io/app/en/solana/pair-explorer/7y3KMHA91JEBoQ67P3mEJtVvXLg62FjWR1VDHhEFSX8Z?t=1715722377815"
                 className='font-custom text-4xl md:text-5xl lg:text-6xl bg-amber-400 p-6 rounded-xl border-2 border-black ring-4 ring-amber-600 ring-opacity-80 ring-offset-4 hover:scale-105 transition ease-in-out duration-200'
               >
                 BUY NOW

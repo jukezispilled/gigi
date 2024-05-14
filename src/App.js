@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion'; // Import motion from Framer Motion
 import { HorizontalTicker } from "react-infinite-ticker";
-import monkeyImage from './dcb1.png'; // Import the monkey image
+import monkeyImage from './gigi.png'; // Import the monkey image
 import Xlogo from './xlogo.jpg';
 import TG from './tg.png';
 import './App.css';
@@ -12,7 +12,7 @@ function App() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("Bjj44cJrTMogwHvQ9sK8RaMeE5P3pALycMPdMws9gMfX");
+    navigator.clipboard.writeText("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
@@ -21,44 +21,30 @@ function App() {
 
   return (
     <div>
-      <div className="banana-cursor h-[94vh] md:min-h-[97vh] w-screen flex justify-center items-center bg-cover bg-center relative overflow-clip z-10" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/bg1.jpg)`}}>
+      <div className="banana-cursor h-[94vh] md:min-h-[97vh] w-screen flex justify-center items-center bg-cover bg-center relative overflow-clip z-10" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/gigi3.png)`}}>
         <div className=''>
-          <div className='text-center font-custom font-bold -mt-[50%] md:-mt-[40%] mb-[10%]'>
-            <h1 className='text-[84px] leading-none sm:text-[130px] md:text-[150px] lg:text-[180px] 2xl:text-[210px]'>DOGECAT</h1>
+          <div className='text-center font-custom font-bold mb-[10%]'>
+            <h1 className='text-[84px] leading-none sm:text-[130px] md:text-[150px] lg:text-[180px] 2xl:text-[210px]'>gigi</h1>
             <h2 className='-mt-3 text-2xl md:text-4xl'>POWERED BY SOLANA</h2>
           </div>
-          <motion.img 
-            src={monkeyImage} 
-            alt="Monkey" 
-            className="mt-6 mb-6 w-[80%] lg:w-[40%] h-auto absolute translate-x-2 -bottom-[15%] left-[10%] sm:-bottom-[10%] md:left-[10%] lg:bottom-[2%] lg:left-[1%] -z-10" 
-            animate={{
-              rotate: [-3, 3], // Rotate from -5 degrees to 5 degrees and back
-            }}
-            transition={{
-              duration: 1.5, // Animation duration
-              repeat: Infinity, // Repeat infinitely
-              repeatType: "reverse", // Reverse animation direction on each repeat
-              ease: "easeInOut", // Easing function
-            }}
-          /> {/* Image */}
-          <div className='lg:absolute lg:bottom-[25%] lg:right-[20%] flex justify-center'>
+          <div className='flex justify-center'>
             <div className='grid content-center z-40'>
               <a
-                href="https://raydium.io/swap/?outputCurrency=Bjj44cJrTMogwHvQ9sK8RaMeE5P3pALycMPdMws9gMfX"
-                className='lg:-rotate-3 font-custom text-4xl md:text-5xl lg:text-6xl bg-amber-400 p-6 rounded-xl border-2 border-black ring-4 ring-amber-600 ring-opacity-80 ring-offset-4 hover:scale-105 transition ease-in-out duration-200'
+                href=""
+                className='font-custom text-4xl md:text-5xl lg:text-6xl bg-amber-400 p-6 rounded-xl border-2 border-black ring-4 ring-amber-600 ring-opacity-80 ring-offset-4 hover:scale-105 transition ease-in-out duration-200'
               >
                 BUY NOW
               </a>
-              <div className='pt-8 text-center font-custom text-2xl lg:-rotate-3 flex justify-center -mt-3'>
-                <a href="https://twitter.com/dogecatonsol" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
-                <a href="https://t.me/dogecatonsol" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={TG} alt='Tg logo' className='w-12 h-12'></img></a>
+              <div className='pt-8 text-center font-custom text-2xl flex justify-center -mt-3'>
+                <a href="" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
+                <a href="" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={TG} alt='Tg logo' className='w-12 h-12'></img></a>
               </div>
             </div>
           </div>
         </div>
       </div>
       <Marquee speed={90}>
-        <div className='h-16 flex items-center text-[30px] lg:text-5xl font-custom whitespace-nowrap border-y-2 border-black'>$DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC $DC&nbsp;</div>
+        <div className='h-16 flex items-center text-[30px] lg:text-5xl font-custom whitespace-nowrap border-y-2 border-black'> $gigi $gigi $gigi $gigi $gigi $gigi $gigi $gigi $gigi $gigi $gigi $gigi $gigi $gigi $gigi $gigi&nbsp;</div>
       </Marquee>
       <div className='h-min w-screen flex justify-center bg-amber-400'>
         <div className='grid w-full'>
@@ -71,7 +57,7 @@ function App() {
                 <div className='grid text-center'>
                   total supply
                   <div className="text-center pt-[2%] text-2xl md:text-4xl mx-6">
-                    1,000,000,000 $DC
+                    1,000,000,000 $GIGI
                   </div>
                 </div>
               </div>
@@ -83,7 +69,7 @@ function App() {
                 <div className='grid text-center'>
                   token address
                   <div className="text-center pt-[2%] text-2xl md:text-4xl break-all mx-12">
-                    Bjj44cJrTMogwHvQ9sK8RaMeE5P3pALycMPdMws9gMfX
+                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
                   </div>
                   <div className='flex justify-center'>
                     <button

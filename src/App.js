@@ -24,7 +24,7 @@ function App() {
       <div className="bg-black banana-cursor h-[94vh] md:min-h-[97vh] w-screen flex justify-center items-center bg-cover bg-center relative overflow-clip z-10" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/gigi3.png)`}}>
         <div className=''>
           <div className='text-center font-custom font-bold mb-[5%] text-amber-400'>
-            <h1 className='text-[84px] leading-none text-9xl md:text-[180px] lg:text-[220px] 2xl:text-[260px]'>GIGI</h1>
+            <h1 className='leading-none text-[150px] md:text-[180px] lg:text-[220px] 2xl:text-[260px]'>GIGI</h1>
           </div>
           <div className='flex justify-center'>
             <div className='grid content-center z-40'>
@@ -68,7 +68,7 @@ function App() {
                 <div className='grid text-center'>
                   token address
                   <div className="text-center pt-[2%] text-2xl md:text-4xl break-all mx-12">
-                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs
                   </div>
                   <div className='flex justify-center'>
                     <button

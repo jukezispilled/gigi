@@ -68,7 +68,7 @@ function App() {
                 <div className='grid text-center'>
                   token address
                   <div className="text-center pt-[2%] text-2xl md:text-4xl break-all mx-12">
-                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs
+                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
                   </div>
                   <div className='flex justify-center'>
                     <button

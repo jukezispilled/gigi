@@ -12,7 +12,7 @@ function App() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+    navigator.clipboard.writeText("EZUFNJMZTBpungQX2czEb9ZyCMjtdzsDGMK4UywDUa1F");
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
@@ -68,7 +68,7 @@ function App() {
                 <div className='grid text-center'>
                   token address
                   <div className="text-center pt-[2%] text-2xl md:text-4xl break-all mx-12">
-                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                    EZUFNJMZTBpungQX2czEb9ZyCMjtdzsDGMK4UywDUa1F
                   </div>
                   <div className='flex justify-center'>
                     <button

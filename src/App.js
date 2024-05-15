@@ -30,13 +30,13 @@ function App() {
           <div className='flex justify-center'>
             <div className='grid content-center z-40'>
               <a
-                href="https://www.dextools.io/app/en/solana/pair-explorer/7y3KMHA91JEBoQ67P3mEJtVvXLg62FjWR1VDHhEFSX8Z?t=1715722680763"
+                href="https://www.dextools.io/app/en/solana/pair-explorer/7y3KMHA91JEBoQ67P3mEJtVvXLg62FjWR1VDHhEFSX8Z?t=1715720852830"
                 className='font-custom text-4xl md:text-5xl lg:text-6xl bg-amber-400 p-6 rounded-xl border-2 border-black ring-4 ring-amber-600 ring-opacity-80 ring-offset-4 hover:scale-105 transition ease-in-out duration-200'
               >
                 BUY NOW
               </a>
               <div className='pt-8 text-center font-custom text-2xl flex justify-center -mt-3'>
-                <a href="https://www.dextools.io/app/en/solana/pair-explorer/7y3KMHA91JEBoQ67P3mEJtVvXLg62FjWR1VDHhEFSX8Z?t=1715722680763" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={DT} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
+                <a href="https://www.dextools.io/app/en/solana/pair-explorer/7y3KMHA91JEBoQ67P3mEJtVvXLg62FjWR1VDHhEFSX8Z?t=1715720852830" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={DT} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
                 <a href="https://twitter.com/gigithedoge" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
                 <a href="https://t.me/gigcoinsol" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={TG} alt='Tg logo' className='w-12 h-12'></img></a>
               </div>

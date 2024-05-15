@@ -4,6 +4,7 @@ import { HorizontalTicker } from "react-infinite-ticker";
 import monkeyImage from './gigi.png'; // Import the monkey image
 import Xlogo from './xlogo.jpg';
 import TG from './tg.png';
+import DT from './dextools.svg';
 import './App.css';
 import TweetButton from './TweetButton';
 import Marquee from "react-fast-marquee";
@@ -35,6 +36,7 @@ function App() {
                 BUY NOW
               </a>
               <div className='pt-8 text-center font-custom text-2xl flex justify-center -mt-3'>
+                <a href="https://www.dextools.io/app/en/solana/pair-explorer/7y3KMHA91JEBoQ67P3mEJtVvXLg62FjWR1VDHhEFSX8Z?t=1715722680763" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={DT} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
                 <a href="https://twitter.com/gigithedoge" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={Xlogo} alt='Xlogo' className='w-12 h-12 rounded-md'></img></a>
                 <a href="https://t.me/gigcoinsol" className='p-2 hover:scale-110 transition ease-in-out duration-200'><img src={TG} alt='Tg logo' className='w-12 h-12'></img></a>
               </div>
